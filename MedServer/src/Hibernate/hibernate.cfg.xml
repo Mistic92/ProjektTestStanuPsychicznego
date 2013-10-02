@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/medserv?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">password</property>
+    <mapping class="HibernateClassMap.kod_pocztowy" file="" jar="" package="" resource="Hibernate/hibernate-map-kod.hbm.xml"/>
+    <mapping class="HibernateClassMap.lekarze" file="" jar="" package="" resource="Hibernate/hibernate-map-lekarze.hbm.xml"/>
+    <mapping class="HibernateClassMap.pacjenci" file="" jar="" package="" resource="Hibernate/hibernate-map-pacjenci.hbm.xml"/>
+    <mapping class="HibernateClassMap.wyniki" file="" jar="" package="" resource="Hibernate/hibernate-map-wyniki.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

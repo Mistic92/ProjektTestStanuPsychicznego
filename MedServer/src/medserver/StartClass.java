@@ -4,6 +4,7 @@
  */
 package MedServer;
 
+import Hibernate.HibernateOperacje;
 import java.util.Scanner;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -39,17 +40,20 @@ public class StartClass {
         Pause(1);
         int start =0;
          start= options.read();
-        if(start == 1) {
-           int stan;
-            stan = dbcon.dataBaseConnect(); 
-            if(stan==1)
-            {
+        if(start == 1) 
+        {
+          // int stan;
+            //stan = dbcon.dataBaseConnect(); 
+           // if(stan==1)
+           // {
+           HibernateOperacje ho = new HibernateOperacje();
+           ho.polacz();
                 konsola.start();  
                 server.StartServer(5555);
-            }
-            else if(stan ==2) {
-                LOGGER.info("Start przerwany przez uzytkownika!");
-            }            
+          //  }
+           // else if(stan ==2) {
+           //     LOGGER.info("Start przerwany przez uzytkownika!");
+            //}            
         }else
         {
             LOGGER.warning("Przerwane przez uzytkownika!");

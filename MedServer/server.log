@@ -1,0 +1,165 @@
+maj 23, 2013 9:17:57 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 23, 2013 9:17:58 PM MedServer.Options read
+INFO: Brak pliku opcji! Czy chcesz go utworzyc? tak/nie
+maj 23, 2013 9:18:21 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 23, 2013 9:18:21 PM MedServer.RunServer StartServer
+INFO: Serwer rozpoczal dzialanie na porcie 5 555
+maj 23, 2013 9:18:31 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35848,localport=5555]
+maj 23, 2013 9:18:36 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35848,localport=5555] watek Thread[Thread-3,5,main]
+maj 23, 2013 9:19:59 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35849,localport=5555]
+maj 23, 2013 9:20:20 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35849,localport=5555] watek Thread[Thread-4,5,main]
+maj 23, 2013 9:21:31 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35853,localport=5555]
+maj 23, 2013 9:21:34 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35853,localport=5555] watek Thread[Thread-5,5,main]
+maj 23, 2013 9:21:49 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35854,localport=5555]
+maj 23, 2013 9:21:54 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35854,localport=5555] watek Thread[Thread-6,5,main]
+maj 23, 2013 9:21:58 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35855,localport=5555]
+maj 23, 2013 9:22:01 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35855,localport=5555] watek Thread[Thread-7,5,main]
+maj 23, 2013 9:22:04 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35856,localport=5555]
+maj 23, 2013 9:22:06 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35856,localport=5555] watek Thread[Thread-8,5,main]
+maj 23, 2013 9:23:18 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 23, 2013 9:23:20 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 23, 2013 9:23:20 PM MedServer.RunServer StartServer
+INFO: Serwer rozpoczal dzialanie na porcie 5 555
+maj 23, 2013 9:23:41 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35861,localport=5555]
+maj 23, 2013 9:23:45 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35861,localport=5555] watek Thread[Thread-3,5,main]
+maj 23, 2013 9:23:47 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35862,localport=5555]
+maj 23, 2013 9:24:33 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35862,localport=5555] watek Thread[Thread-4,5,main]
+maj 23, 2013 9:24:38 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35863,localport=5555]
+maj 23, 2013 9:24:40 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35863,localport=5555] watek Thread[Thread-5,5,main]
+maj 23, 2013 9:25:23 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35865,localport=5555]
+maj 23, 2013 9:25:25 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35865,localport=5555] watek Thread[Thread-6,5,main]
+maj 23, 2013 9:43:58 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 23, 2013 9:43:59 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 23, 2013 9:43:59 PM MedServer.RunServer StartServer
+INFO: Serwer rozpoczal dzialanie na porcie 5 555
+maj 23, 2013 9:44:06 PM MedServer.RunServer StartServer
+INFO: Zaakceptowano polaczenie od Socket[addr=/127.0.0.1,port=35947,localport=5555]
+maj 23, 2013 9:44:11 PM MedServer.DbCon loggingCheck
+INFO: Pass uzytkownika:3661094 poprawne
+maj 23, 2013 9:44:39 PM MedServer.TcpThread run
+INFO: Polaczenie zakonczone! Socket[addr=/127.0.0.1,port=35947,localport=5555] watek Thread[Thread-3,5,main]
+maj 24, 2013 12:51:24 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 24, 2013 12:51:45 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak odpowiedniej bazy danych!!
+maj 24, 2013 12:52:00 PM MedServer.DbCon createDB
+INFO: Tworzenie bazy danych...
+maj 24, 2013 12:52:20 PM MedServer.DbCon createDB
+INFO: Pomyslnie utworzono baze danych!!
+maj 24, 2013 12:52:40 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 24, 2013 12:52:40 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli LEKARZE!
+maj 24, 2013 12:53:09 PM MedServer.DbCon createTableLekarze
+INFO: Tworzenie tabeli LEKARZE...
+maj 24, 2013 12:53:09 PM MedServer.DbCon createTableLekarze
+INFO: Utworzono tabele LEKARZE!
+maj 24, 2013 12:53:29 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli miasto!
+maj 24, 2013 12:53:44 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 24, 2013 12:54:05 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 24, 2013 12:54:05 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli miasto!
+maj 24, 2013 12:54:10 PM MedServer.DbCon createTableMiasto
+INFO: Tworzenie tabeli miasto...
+maj 24, 2013 12:54:10 PM MedServer.DbCon createTableMiasto
+INFO: Utworzono tabele miasto!!
+maj 24, 2013 12:54:30 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli kod_pocztowy!
+maj 24, 2013 12:54:34 PM MedServer.DbCon createTableKod
+INFO: Tworzenie tabeli kod_pocztowy...
+maj 24, 2013 12:54:34 PM MedServer.DbCon createTableKod
+INFO: Utworzono tabele kod_pocztowy!!
+maj 24, 2013 12:54:54 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli pacjenci!
+maj 24, 2013 12:54:59 PM MedServer.DbCon createTablePacjenci
+INFO: Tworzenie tabeli pacjenci...
+maj 24, 2013 12:54:59 PM MedServer.DbCon createTablePacjenci
+INFO: Utworzono tabele pacjenci!!
+maj 24, 2013 12:55:19 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli WYNIKI!
+maj 24, 2013 12:55:27 PM MedServer.DbCon createTableWyniki
+INFO: Tworzenie tabeli WYNIKI...
+maj 24, 2013 12:55:27 PM MedServer.DbCon createTableWyniki
+INFO: Utworzono tabele WYNIKI!
+maj 24, 2013 12:55:47 PM MedServer.RunServer StartServer
+INFO: Serwer rozpoczal dzialanie na porcie 5 555
+maj 24, 2013 1:02:36 PM MedServer.StartClass main
+INFO: 
+************************************
+        Wlaczenie serwera
+************************************
+maj 24, 2013 1:02:37 PM MedServer.DbCon dataBaseConnect
+INFO: Pomyslnie polaczono z baza danych!! jdbc:mysql://nullmedserv
+maj 24, 2013 1:02:37 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli WYNIKI!
+maj 24, 2013 1:02:44 PM MedServer.DbCon createTableWyniki
+INFO: Tworzenie tabeli WYNIKI...
+maj 24, 2013 1:02:45 PM MedServer.DbCon createTableWyniki
+SEVERE: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Foreign Key (pacjent_id) REFERENCES pacjenci(pacjent_id),lekarz_id INT(5) NOT NU' at line 1
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Foreign Key (pacjent_id) REFERENCES pacjenci(pacjent_id),lekarz_id INT(5) NOT NU' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at MedServer.DbCon.createTableWyniki(DbCon.java:340)
+	at MedServer.DbCon.dataBaseConnect(DbCon.java:176)
+	at MedServer.StartClass.main(StartClass.java:44)
+
+maj 24, 2013 1:02:45 PM MedServer.DbCon dataBaseConnect
+WARNING: Brak tabeli WYNIKI!
