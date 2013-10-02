@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 import java.io.Serializable;
 
 /**
  * Klasa magazyn danych. Uzywana w polaczeniu z arraylist. Tylko akcesory. 
- * @author Łukasz
+ * @author ţukasz
  */
 public class PacjenciClass implements Serializable {
    

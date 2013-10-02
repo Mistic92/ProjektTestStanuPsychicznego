@@ -2,9 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 import Hibernate.HibernateOperacje;
+import Hibernate.HibernateUtil;
 import java.util.Scanner;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -13,7 +14,7 @@ import java.util.logging.SimpleFormatter;
 
 /**
  *MainClass. Uruchamia wszystkie "uslugi". 
- * @author Łukasz
+ * @author ţukasz
  */
 public class StartClass {
   
@@ -46,7 +47,9 @@ public class StartClass {
             //stan = dbcon.dataBaseConnect(); 
            // if(stan==1)
            // {
-           HibernateOperacje ho = new HibernateOperacje();
+           HibernateUtil hu = new HibernateUtil();
+           
+            HibernateOperacje ho = new HibernateOperacje();
            ho.polacz();
                 konsola.start();  
                 server.StartServer(5555);

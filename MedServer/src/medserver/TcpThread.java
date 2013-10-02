@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Łukasz
+ * @author ţukasz
  */
 public class TcpThread extends Thread {
  

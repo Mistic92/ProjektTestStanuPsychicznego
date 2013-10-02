@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 /**
  *Sluzy do tworzenia i odczytu pliku opcji. 
- * @author Łukasz
+ * @author ţukasz
  */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -24,7 +24,7 @@ public class Options {
     private final static Logger LOGGER = Logger.getLogger(RunServer.class.getName());
 
     RunServer client = new RunServer();
-    SimpleEncDec szyfr = new SimpleEncDec();
+    //SimpleEncDec szyfr = new SimpleEncDec();
     StartClass main = new StartClass();
     DbCon dbcon = new DbCon();
     private File f;

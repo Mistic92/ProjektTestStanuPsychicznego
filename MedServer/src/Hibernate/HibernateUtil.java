@@ -4,12 +4,13 @@
  */
 package Hibernate;
 
-import MedServer.RunServer;
-import MedServer.StartClass;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.hibernate.cfg.AnnotationConfiguration;
+
+import medserver.RunServer;
+
 import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
 
 /**
  * Hibernate Utility class with a convenient method to get Session Factory
@@ -42,5 +43,10 @@ public class HibernateUtil
     public static SessionFactory getSessionFactory()
     {
         return sessionFactory;
+    }
+    
+    public static void closeConnection()
+    {
+        sessionFactory.close();
     }
 }

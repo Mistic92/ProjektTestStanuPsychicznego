@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="HibernateClassMap.wyniki" optimistic-lock="version" polymorphism="implicit" select-before-update="false"/>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="HibernateClassMap.wyniki" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+      
+    <id name="wynik_id">
+        <generator class="native"/>
+    </id>
+    <property name="data" not-null="true" type="string"/>
+    <property name="pacjent_id" not-null="true" type="integer"/>   
+    <property name="lekarz_id" not-null="true" type="integer" />         
+    <property name="wynik" not-null="true" type="integer"  />  
+      
+  </class> 
+      
+      
 </hibernate-mapping>

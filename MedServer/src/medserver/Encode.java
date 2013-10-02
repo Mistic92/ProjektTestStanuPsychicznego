@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 import java.security.MessageDigest;
 import java.util.logging.Level;

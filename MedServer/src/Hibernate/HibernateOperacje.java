@@ -4,19 +4,21 @@
  */
 package Hibernate;
 
-import HibernateClassMap.lekarze;
-import HibernateClassMap.pacjenci;
-import MedServer.DbCon;
-import MedServer.RunServer;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import medserver.RunServer;
+
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+
+import HibernateClassMap.lekarze;
+import HibernateClassMap.pacjenci;
 
 /**
  *

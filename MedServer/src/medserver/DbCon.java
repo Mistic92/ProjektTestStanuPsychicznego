@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -528,7 +528,7 @@ public class DbCon {
             
             if(err.getLocalizedMessage().contains("Duplicate entry"))
             {
-                LOGGER.log(Level.INFO,"Próba dodania pacjenta o tym samym PESEL-u");
+                LOGGER.log(Level.INFO,"PrĂłba dodania pacjenta o tym samym PESEL-u");
                 return 2;
             }
             else

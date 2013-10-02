@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package MedServer;
+package medserver;
 
+import Hibernate.HibernateUtil;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
@@ -12,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Łukasz
+ * @author ţukasz
  */
 public class Konsola extends Thread {
 
@@ -28,7 +29,7 @@ public class Konsola extends Thread {
 
     public void run() {
         
-        komunikatyStartowe();
+       // komunikatyStartowe();
         
         while (true) {
             Scanner skan = new Scanner(System.in);
@@ -107,8 +108,7 @@ public class Konsola extends Thread {
      * Zatrzymywanie serwera
      */
     private void ServerStop() {
-        String s = "sessions";
-        dbcon.closeConn();
+
         LOGGER.info("\n#########################"
                 + "\nSerwer poprawnie zakonczyl dzialanie. Stopcode poprawny " + stopcode
                 + "\n#########################");
